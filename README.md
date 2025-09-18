@@ -20,7 +20,7 @@ A seguir, uma breve apresentação das principais telas da aplicação.
 
 <p align="center">
 <em>Página de Gerenciamento de Professores</em><br>
-<img src="./images/alunos.png" width="700">
+<img src="./images/professores.png" width="700">
 </p>
 
 ---
