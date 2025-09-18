@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciar Alunos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="alunos.html" class="active">Alunos</a></li>
+          <li><a href="professores.html">Professores</a></li>
+        </ul>
+      </nav>
+
+      <h1>Gerenciamento de Alunos</h1>
+
+      <section class="form-container">
+        <h2>Cadastrar Novo Aluno</h2>
+        <form id="aluno-form">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required />
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+
+      <section class="list-container">
+        <h2>Alunos Cadastrados</h2>
+        <table id="alunos-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Idade</th>
+            </tr>
+          </thead>
+          <tbody id="alunos-tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <div id="notification"></div>
+
+    <script src="alunos.js"></script>
+  </body>
+</html>
