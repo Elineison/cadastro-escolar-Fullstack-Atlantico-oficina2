@@ -9,18 +9,18 @@ Este projeto é uma aplicação web **Fullstack** desenvolvida como avaliação 
 A seguir, uma breve apresentação das principais telas da aplicação.
 
 <p align="center">
+<em>Página Inícial</em><br>
+<img src="./images/inicio.png" width="400">
+</p>
+
+<p align="center">
 <em>Página de Gerenciamento de Alunos</em><br>
-<img src="" width="700">
+<img src="./images/alunos.png" width="700">
 </p>
 
 <p align="center">
 <em>Página de Gerenciamento de Professores</em><br>
-<img src="" width="700">
-</p>
-
-<p align="center">
-<em>Exemplo de Notificação de Feedback</em><br>
-<img src="" width="400">
+<img src="./images/alunos.png" width="700">
 </p>
 
 ---

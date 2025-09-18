@@ -4,17 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const alunosTbody = document.getElementById("alunos-tbody");
   const notification = document.getElementById("notification");
 
-  // Função para mostrar notificação
   function showNotification(message, type) {
     notification.textContent = message;
-    notification.className = type; // success ou error
+    notification.className = type;
     notification.classList.add("show");
     setTimeout(() => {
       notification.classList.remove("show");
-    }, 3000); // Esconde a notificação após 3 segundos
+    }, 3000);
   }
 
-  // Função para buscar os alunos na API e exibir na tabela
   async function fetchAlunos() {
     try {
       const response = await fetch(`${apiUrl}/alunos`);
@@ -35,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Adiciona um evento para quando o formulário for enviado
   alunoForm.addEventListener("submit", async (event) => {
     event.preventDefault();
     const formData = new FormData(alunoForm);
